@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+   direction: rtl;
+   margin: 0 auto;
+}
+
+.button-prim{
+   @apply px-[38px] py-2.5 bg-prim rounded-[10px] text-white
+}
+.title{
+   @apply text-prim text-[28px]  font-bold py-[20px] capitalize
+}
+.title-num{
+   @apply text-prim text-[28px] uppercase font-bold py-[8px]
+}
+.partner{
+   @apply w-[153.2px] h-[153.2px] bg-white rounded-[15px] flex items-center  flex-shrink-0
+}
+.serv{
+   @apply w-[75px] h-[75px] bg-[#ACCCFC] rounded-lg flex items-center p-4
+}
+.contact{
+   @apply p-4 w-[54px] h-[54px] rounded-[15px] bg-white
+
+}
+.form-text{
+@apply text-[#191933] text-lg opacity-60
+}
+input{
+   @apply bg-white border-[#DFDFDF] rounded-[10px] py-[10px] border
+}
+input::placeholder{
+color: #3D3D3D;
+opacity: 0.25;
+padding:10px;
+}
+label{
+color: #000000;
+opacity: 0.5;
+padding: 15px 0 0;
+}
