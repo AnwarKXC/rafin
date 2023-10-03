@@ -53,13 +53,8 @@
       <section class="container flex justify-center items-center font-arabic  mx-auto pb-20 md:-mt-40">
          <div class=" relative ">
             <img src="/Group 47760@2x.png" alt="">
-            <div class=" flex flex-col absolute bottom-16 ">
-               <img width="105" src="/Group 39294@2x.png" alt="">
-               <div class=" w-[105] flex justify-center"><img width="28" src="/Group 39295@2x.png" alt="">
-               </div>
-            </div>
          </div>
-         <div class="text-xl text-right  max-w-[538px] 2xl:pt-40 ">
+         <div class="text-xl text-right  max-w-[538px] order-first 2xl:pt-40 ">
             <h1 class="title">{{ $t("حمل تطبيق ريفاين و واطمن علي صحتك في أي وقت") }}</h1>
             <div class="font-medium leading-[35px]">
                توفر منصة ريفاين خدمات شاملة في مجال الرعاية الصحية وبرامج التأمين الطبي المتنوعة، لتمكن

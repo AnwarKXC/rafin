@@ -1,10 +1,10 @@
 <template>
-   <section class=" container py-[50px]  text-[#191933] font-arabic text-[20px]">
-      <div class=" flex justify-between ">
+   <section class=" container py-[50px]  text-[#191933] font-arabic text-[20px] h-[176px]">
+      <div class=" flex justify-between border-t opacity-80 pt-[33px] ">
          <div>
             <img src="/Group 47550.svg" alt="">
          </div>
-         <div class="hidden md:inline-flex font-medium opacity-80">
+
             <ul class=" flex gap-[62px]">
                <li>
                   <RouterLink to="/">{{ $t( "سياسة الخصوصية") }}</RouterLink>
@@ -20,7 +20,6 @@
                      <RouterLink to="/contact-us">{{ $t( "تواصل معنا" ) }}</RouterLink>
                   </li>
             </ul>
-         </div>
          <div class="w-[212px] h-[45px] px-4 rounded-[26px] border-2 flex justify-around items-center">
             <h3 class=" text-[15px]">{{ $t('تابعنا علي') }}</h3>
             <div class="flex justify-center items-center gap-2">
